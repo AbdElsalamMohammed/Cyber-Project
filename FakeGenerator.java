@@ -22,10 +22,10 @@ public class FakeGenerator implements Runnable {
         catch (Exception e){}
         }//end of run().
 
-    public static void main(String[] args) throws InterruptedException
+    /*public static void main(String[] args) throws InterruptedException
     {
 
         Thread MyThread = new Thread(new FakeGenerator());
         MyThread.start();
-    }
+    }*/
 }//end of FakeGenerator.
